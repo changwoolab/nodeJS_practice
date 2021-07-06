@@ -3,6 +3,7 @@ var fs = require('fs');
 var url = require('url');
 var qs = require('querystring');
 
+// set template
 function templateHTML(title, list, body, control) {
     return `
     <!doctype html>
@@ -21,6 +22,7 @@ function templateHTML(title, list, body, control) {
     `;
 }
 
+// set template list
 function templateList(filelist) {
     var list = `<ul>`;
     for (i = 0; i < filelist.length; i++)
