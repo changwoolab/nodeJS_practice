@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_practice",
+  "version": "1.0.0",
+  "description": "practice nodejs",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changwoolab/nodeJS_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changwoolab/nodeJS_practice/issues"
+  },
+  "homepage": "https://github.com/changwoolab/nodeJS_practice#readme",
+  "dependencies": {
+    "sanitize-html": "^2.4.0"
+  }
+}
